@@ -1,0 +1,23 @@
+What is Vectorization?
+-- Vectorization is the process of converting texual data into numerical format, specially vectors.
+The goal of vectorization is to transform the original text into a sturctured format(vector) that 
+cpatures the relevant information form the text while retaining as much meaning as possible.
+
+## Steps to transform text into usable numerical representation include::
+1. Capturing the relationship between words and the context in which they appear
+2. Maintaining the structure and patterns inherent in the text
+3. Reducing dimensionality.
+
+## Common Vectorization Methods:: 
+1.Bag-of-Words (BoW) Model:
+-- Simplest and most common used method.
+-- It works by representating text as a bag(set) of words, where the order of the words is igonored 
+-- but the frequency is counted.
+How this works:
+1. Vocabulary Creation: The entire corpus (collection of documents) is scanned, and all unique words (tokens) are collected in a vocabulary
+2.Vector Representation: Each document is then represented as a vector with the size equal to the number of words in the vocabulary. The value of each element in the vector is the count of that word’s occurrences in the document.
+
+Limitation:
+1.Sparsity: BoW creates very sparse vectors (most entries are 0s), especially with large vocabularies.
+2.Ignores Word Order: BoW doesn't capture the meaning based on the order or sequence of words
+3.No Semantic Meaning: It treats all words equally, regardless of their meaning or relationships.
