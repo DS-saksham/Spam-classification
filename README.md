@@ -8,7 +8,7 @@ The primary goal of this project is to automatically detect and classify message
 ## 📌 Project Overview
 
 The system leverages **data-driven methods** to identify unwanted messages, streamlining the communication filtering process.  
-According to the repository metadata, the project is written **100.0% in Jupyter Notebook**.
+
 
 ---
 
